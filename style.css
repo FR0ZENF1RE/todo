@@ -1,0 +1,12 @@
+h1 {
+    color: fuchsia;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(auto, auto);
+    justify-content: center;
+    justify-items: center;
+  }
