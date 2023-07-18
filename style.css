@@ -9,33 +9,37 @@ h1 {
   grid-auto-rows: minmax(auto, auto);
   justify-content: center;
   justify-items: center;
+  font-family: sans-serif;
 }
 
-.listArea {
+label {
   display: grid;
+  text-align:center;
+}
 
+.listArea
+.completed {
+  display: grid;
+  justify-content: center;
 }
 
 li {
   height: 20px;
-  width: 100px;
+  width: max-content;
   margin: 5px;
+  padding: 2px;
   background-color: cyan;
   border: 1px black solid;
   border-radius: 5px;
   text-align: center;
 }
 
-#li {
-  background-color: cornflowerblue;
-}
-
 ul {
   display: grid;
   list-style: none;
   padding: 10px;
-
-
+  justify-content: center;
+  justify-items: center;
 }
 
 li:hover {
@@ -43,7 +47,7 @@ li:hover {
 }
 
 button {
-  color: blueviolet;
+  color: rgb(134, 47, 215);
   background-color: chartreuse;
   border-radius: 5px;
   box-shadow: 5px 5px 5px green;
