@@ -1,26 +1,50 @@
 h1 {
-    color: fuchsia;
+  color: fuchsia;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(auto, auto);
-    justify-content: center;
-    justify-items: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(auto, auto);
+  justify-content: center;
+  justify-items: center;
+}
 
-  .listArea{
-    display: grid; 
-  }
+.listArea {
+  display: grid;
 
-  .li{
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-  }
+}
 
-  #li {
-    background-color: cornflowerblue;
-  }
+li {
+  height: 20px;
+  width: 100px;
+  margin: 5px;
+  background-color: cyan;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#li {
+  background-color: cornflowerblue;
+}
+
+ul {
+  display: grid;
+  list-style: none;
+  padding: 10px;
+
+
+}
+
+li:hover {
+  background: #ddd;
+}
+
+button {
+  color: blueviolet;
+  background-color: chartreuse;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px green;
+}
